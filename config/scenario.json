@@ -1,0 +1,29 @@
+{
+  "name": "plumbing-interactive-overview-v1",
+  "openingSeconds": 1.6,
+  "closingSeconds": 1.2,
+  "allowedPaths": [
+    "/",
+    "/services",
+    "/service-areas",
+    "/about",
+    "/faq",
+    "/contact",
+    "/request-a-quote"
+  ],
+  "routes": [
+    { "path": "/", "label": "Home", "seconds": 20 },
+    { "path": "/services", "label": "Services", "seconds": 15 },
+    { "path": "/service-areas", "label": "Service areas", "seconds": 14, "aliases": ["/service-area"] },
+    { "path": "/about", "label": "About", "seconds": 15 },
+    { "path": "/faq", "label": "FAQ", "seconds": 14, "aliases": ["/faqs"] },
+    { "path": "/request-a-quote", "label": "Request a quote", "seconds": 14 },
+    { "path": "/contact", "label": "Contact", "seconds": 13 }
+  ],
+  "interactions": {
+    "desktopHoverNavigation": true,
+    "mobileOpenNavigation": true,
+    "clickPrimaryCta": true,
+    "scroll": true
+  }
+}

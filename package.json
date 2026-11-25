@@ -1,0 +1,20 @@
+{
+  "name": "digital-leads-demo-video-generator",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Automated desktop + mobile interactive demo video generator",
+  "type": "module",
+  "scripts": {
+    "install:browsers": "playwright install chromium",
+    "doctor": "node src/index.js doctor",
+    "generate": "node src/index.js generate",
+    "validate": "node src/index.js validate",
+    "list": "node src/index.js list"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.58.0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "durationSeconds": 104,
+  "fps": 25,
+  "thumbnailAtSeconds": 18,
+  "transitions": {
+    "sceneFadeMs": 420,
+    "videoFadeInSeconds": 0.4,
+    "videoFadeOutSeconds": 0.6
+  },
+  "canvas": { "width": 1920, "height": 1080 },
+  "desktop": { "width": 1440, "height": 900, "deviceScaleFactor": 1 },
+  "mobile": { "width": 390, "height": 844, "deviceScaleFactor": 1, "isMobile": true, "hasTouch": true },
+  "composition": {
+    "desktopWidth": 1360,
+    "mobilePanelWidth": 440,
+    "outerPadding": 48,
+    "panelGap": 24,
+    "headerHeight": 104,
+    "footerHeight": 72,
+    "deviceFrame": true,
+    "deviceFrameColor": "0x374151",
+    "deviceFrameThickness": 3,
+    "backgroundColor": "0x111827",
+    "fontFile": "",
+    "labels": {
+      "desktop": "DESKTOP EXPERIENCE",
+      "mobile": "MOBILE EXPERIENCE",
+      "footer": "Website overview"
+    }
+  },
+  "capture": {
+    "reducePaintCost": true,
+    "headless": true,
+    "reducedMotion": "no-preference",
+    "colorScheme": "light",
+    "navigationTimeoutMs": 30000,
+    "maxNavigationBudgetMs": 22000,
+    "estimatedNavigationMs": 3500,
+    "minDwellMs": 3600,
+    "holdTopMs": 1200,
+    "holdBottomMs": 2500,
+    "scrollSpeedPxPerSecond": 1000,
+    "minScrollMs": 2400,
+    "maxScrollMs": 12000,
+    "maxPxPerFrame": 75,
+    "networkIdleTimeoutMs": 800,
+    "minRenderedChars": 200,
+    "contentStabilityMs": 250,
+    "contentReadyTimeoutMs": 8000,
+    "settleAfterNavigationMs": 800,
+    "actionTimeoutMs": 5000
+  },
+  "validation": {
+    "minBytes": 100000,
+    "durationToleranceSeconds": 1
+  },
+  "encoding": {
+    "videoCodec": "libx264",
+    "preset": "veryfast",
+    "crf": 21,
+    "pixelFormat": "yuv420p"
+  },
+  "concurrency": 2,
+  "retryAttempts": 2
+}
